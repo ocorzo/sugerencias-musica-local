@@ -1,0 +1,29 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+
+# Datos privados, datasets externos y resultados derivados.
+data/
+datasets/
+private/
+outputs/
+reports/
+*.jsonl
+*.jsonl.gz
+*.duckdb
+*.sqlite
+*.sqlite3
+*.db
+*.model
+*.kv
+*.vectors
+*.npy
+*.npz
+*.csv
+*.xml
+
+# Credenciales y descargas auxiliares locales.
+tools/bin/
